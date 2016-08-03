@@ -1,5 +1,6 @@
 body {
-  /*background-image: url("img/buzzsaw.jpg");*/
+  background-image: url(img/buzzsaw.jpg);
+  background: cover;
   background-color: darkolivegreen;
 }
 
@@ -27,10 +28,10 @@ h3 {
  /*Div class rules*/
 
 .column {
-  display: flex;
-  flex-direction: column;
+  /*display: flex;
+  flex-direction: column;*/
   align-items: center;
-  width: 600px;
+  width: 48vw;
   padding: 10px;
   margin: 10px;
   background-color: lavender;
