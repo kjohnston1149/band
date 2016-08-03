@@ -27,9 +27,10 @@ h3 {
  /*Div class rules*/
 
 .column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 600px;
-  float: left;
-  /*border: 2px solid red;*/
   padding: 10px;
   margin: 10px;
   background-color: lavender;
@@ -49,8 +50,25 @@ h3 {
   padding: 12px;
 }
 
+.wrap{
+  text-align: center;
+}
 /*Span class rules*/
 
 .highlight {
   color: red;
+}
+
+/*media query rules*/
+
+@media screen and (min-width: 1200px) {
+  .wrap {
+    width: 700px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .column {
+    width: 700px;
+  }
 }
