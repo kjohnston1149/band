@@ -1,11 +1,27 @@
+body {
+  /*background-image: url("img/buzzsaw.jpg");*/
+  background-color: darkolivegreen;
+}
+
 img {
   height: 300px;
   width: auto;
+  border: 2px solid red;
+}
+
+h1 {
+  text-align: center;
+  color: darkred;
 }
 
 p {
   text-align: justify;
   padding-right: 10px;
+  font-size: 20px;
+}
+
+h3 {
+  text-align-last: center;
 }
 
  /*Div class rules*/
@@ -13,13 +29,24 @@ p {
 .column {
   width: 600px;
   float: left;
+  /*border: 2px solid red;*/
+  padding: 10px;
+  margin: 10px;
+  background-color: lavender;
+  border: 2px solid black;
+}
+
+.column img {
+  width: inherit;
 }
 
 .sidebar{
   width: 30%;
   float: inherit;
   background-color: lavender;
-  padding-bottom: 30%;
+  margin: 12px;
+  border: 2px solid black;
+  padding: 12px;
 }
 
 /*Span class rules*/
