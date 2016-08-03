@@ -1,9 +1,29 @@
 img {
+  height: 300px;
+  width: auto;
+}
+
+p {
+  text-align: justify;
+  padding-right: 10px;
+}
+
+ /*Div class rules*/
+
+.column {
+  width: 600px;
   float: left;
 }
 
 .sidebar{
   width: 30%;
-  float:left;
+  float: inherit;
   background-color: lavender;
+  padding-bottom: 30%;
+}
+
+/*Span class rules*/
+
+.highlight {
+  color: red;
 }
